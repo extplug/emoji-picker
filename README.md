@@ -1,5 +1,7 @@
 # Emoji Picker
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/extplug/emoji-picker.svg)](https://greenkeeper.io/)
+
 [@Burkes](https://github.com/Burkes)' [Emoji Picker](https://github.com/Burkes/emoji-picker)
 as an ExtPlug plugin.
 

@@ -1,0 +1,28 @@
+{
+  "name": "extplug-emoji-picker",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Burkes' emoji picker userscript as an ExtPlug plugin.",
+  "main": "build/emoji-picker.js",
+  "repository": "extplug/emoji-picker",
+  "author": "Burkes",
+  "contributors": [
+    "ReAnna <renee@kooi.me>"
+  ],
+  "keywords": [
+    "extplug-plugin",
+    "plug.dj",
+    "emoji"
+  ],
+  "files": [
+    "build",
+    "src"
+  ],
+  "scripts": {
+    "prepublish": "npm run build -- --minify",
+    "build": "extplug bundle src/main.js build/emoji-picker.js"
+  },
+  "devDependencies": {
+    "extplug-cli": "^1.0.0"
+  }
+}

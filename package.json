@@ -1,6 +1,6 @@
 {
   "name": "extplug-emoji-picker",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "Burkes' emoji picker userscript as an ExtPlug plugin.",
   "main": "build/emoji-picker.js",
